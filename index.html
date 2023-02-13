@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tinder for Dogs</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style type="text/css">
+    header {
+      background-color: #FFC107;
+      padding: 20px;
+    }
+    header nav ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    header nav a {
+      color: #333;
+      text-decoration: none;
+    }
+    #home {
+      background-color: #333;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    #home h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    #home p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    #home a {
+      background-color: #FFC107;
+      border: 2px solid #fff;
+      border-radius: 20px;
+      color: #333;
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: none;
+      transition: background-color 0.2s ease-in-out;
+    }
+    #home a:hover {
+      background-color: #fff;
+      color: #333;
+    }
+    #dogs {
+      padding: 100px 20px;
+    }
+    #dogs h2 {
+      font-size: 36px;
+      margin-bottom: 50px;
+      text-align: center;
+    }
+    #dogs li {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #ccc;
+      display: inline-block;
+      height: 350px;
+      margin: 0 20px 20px 0;
+      width: 350px;
+    }
+    #dogs li img {
+      border-radius: 20px 20px 0 0;
+      height: 200px;
+      width: 100%;
+    }
+    #dogs li h3 {
+      font-size: 24px;
+      margin: 20px;
+      text-align: center;
+    }
+    #dogs li p {
+      font-size: 18px;
+      margin: 20px;
+      text-align: center;
+    }
+    #login {
+      background-color: #333;
+      color: #fff;
+      padding: 100px 20px;
+    }
+    #login h2 {
+      font-size: 36px;
+    }
+    </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#login">Login/Signup</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home">
+  <h1>Welcome to Tinder for Dogs</h1>
+  <p>Find your furry soulmate today!</p>
+  <a href="#login">Sign Up</a>
+</section>
+
+<section id="dogs">
+  <h2>Available Dogs</h2>
+  <ul>
+    <li>
+      <img src="dog1.jpg" alt="dog1">
+      <h3>Max</h3>
+      <p>Breed: Labrador Retriever</p>
+      <p>Age: 2 years</p>
+      <p>Max is an energetic and friendly pup who loves to play fetch and go for walks.</p>
+    </li>
+    <li>
+      <img src="dog2.jpg" alt="dog2">
+      <h3>Bella</h3>
+      <p>Breed: Beagle</p>
+      <p>Age: 4 years</p>
+      <p>Bella is a sweet and affectionate dog who loves to cuddle and take naps.</p>
+    </li>
+    <li>
+      <img src="dog3.jpg" alt="dog3">
+      <h3>Charlie</h3>
+      <p>Breed: Poodle</p>
+      <p>Age: 1 year</p>
+      <p>Charlie is an intelligent and playful dog who loves to learn new tricks and play with toys.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="login">
+  <h2>Login/Signup</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+    <label for="picture">Profile Picture:</label>
+    <input type="file" id="picture" name="picture">
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <a href="#">Forgot Password?</a>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+ 
